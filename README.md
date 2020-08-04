@@ -7,9 +7,8 @@ PHP
 MySQL
 
 ## Installation instructions
-Клонировать или скачать этот репозиторий в вашу папку www (или public_html)
+Clone or download this repository to your www folder (or public_html)
 
-Создайте новую базу данных MySQL и импортируйте файл xiag.sql
+Create a new MySQL database and import the xiag.sql file
 
-В файле conf.php установите настройки для подключения к созданной базе банных
-
+In the conf.php file, set the settings for connecting to the created database
