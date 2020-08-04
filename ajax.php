@@ -41,6 +41,7 @@ if ($job == 'answer') {
   echo json_encode(['error' => false, 'result' => "ok"]);
 }
 
+
 if ($job == 'update') {
   $question_id = (int) $_SESSION['question_id'];
   $sql = "SELECT `u`.*, `a`.`answer` AS answer FROM `users` AS u LEFT JOIN `answers` AS a ON `u`.`answer_id` = `a`.`id`  WHERE `u`.`question_id` = '{$question_id}'"; // Формируем запрос к базе
